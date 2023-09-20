@@ -1,0 +1,94 @@
+/* Блок навигации */
+    
+    .nav_list{
+        margin-top: 0px;
+        width: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+        .button_a{
+            cursor: pointer;
+        }
+        .nav_p{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            text-align: center;
+            background-color: darkslategray;
+            width: 120px;
+            border: ridge 2px;
+            border-color: whitesmoke;
+            margin-left: auto;
+            margin-right: auto;
+        }
+            .nav_but{
+                color: whitesmoke;
+            }
+
+/* Основной блок */
+
+    .text_c{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        display: grid;
+
+    }
+        .work_n{
+            text-align: center;
+            text-transform: uppercase;
+            width: 640px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .epigraph{
+                font-family: 'Times New Roman', Times, serif;
+                color: black;
+                font-style: italic;
+                text-align: justify;
+                font-size: 16px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-left: auto;
+                margin-right: 10px;
+        }
+        .text_p{
+            color: black;
+            width: 640px;
+            height: auto;
+            text-indent: 30px;
+            text-align: justify;
+            font-size: 18px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .poem{
+            margin-top: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+            .text_pre{
+                font-family: 'Times New Roman', Times, serif;
+                color: black;
+                text-align: justify;
+                font-size: 16px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        
+        .text_ch{
+            text-align: center;
+            width: 640px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        .br{
+            margin: 10px 0px 10px 0px;
+        }
