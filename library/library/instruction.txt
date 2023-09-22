@@ -1,0 +1,37 @@
+Файловая структура проекта:
+
+library[
+    app[
+        authorInput.php
+        inputdata.php
+        main.php
+        text.css
+        textInput.php
+        workInput.php
+    ]
+    data[
+        add_paragraph.php
+        connect.php
+        select_bio.php
+        select_text.php
+        select_work.php
+        select_works.php
+        select.php
+    ]
+    styles[
+        images
+        author.css
+        authors.css
+        base.css
+        main.css
+        work.css
+        background.jpg (Фон сайта, скачиваете текстура текста, желательно цвета бледно-сепия)
+    ]
+    pages[
+        author.php
+        authors.php
+        description.php
+        work.php
+    ]
+    index.php
+]

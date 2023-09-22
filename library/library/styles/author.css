@@ -1,0 +1,106 @@
+
+    a{
+        color: darkslategrey;
+        text-decoration: none;
+    }
+/* Блок навигации */
+
+    .name_author{
+        margin-top: 5px;
+        margin-bottom: 0px;
+        text-align: center;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .image_author{
+        display: block;
+        margin: 0 auto;
+        border: ridge 3px;
+        border-color: whitesmoke;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .nav_list{
+        margin-top: 0px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+        .nav_p{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            text-align: center;
+            background-color: darkslategray;
+            width: 150px;
+            border: ridge 2px;
+            border-color: whitesmoke;
+            margin-left: auto;
+            margin-right: auto;
+        }
+            .nav_but{
+                color: whitesmoke;
+            }
+    
+/* Блок с биографиией автора */
+.text_a{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.bio_text{
+    
+    color: black;
+    width: 640px;
+    height: auto;
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Блок со списком работ */
+.works{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: ridge 3px;
+    border-color: whitesmoke;
+    background-color: rgba(255, 248, 220, 0.50);
+    color: darkslategray;
+}
+    .works_h2{
+        margin-top: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .works_a{
+        color: whitesmoke;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .works_p{
+        width: 150px;
+        background-color: darkslategray;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border: ridge 2px;
+        border-color: whitesmoke;
+    }
+    .works_p:hover{
+        color: whitesmoke;
+        background-color: dimgray;
+    }

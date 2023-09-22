@@ -1,0 +1,141 @@
+.cont{
+    display: grid;
+    width: 100px;
+}
+.circle{
+    background-color: darkslategrey;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: grid;
+}
+    .cirIn{
+        background-color: lightgrey;
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        position: absolute;
+        top: 12.5px;
+        left: 12.5px;
+    }
+        .cirIncir{
+            background-color: darkslategray;
+            width: 85px;
+            height: 85px;
+            border-radius: 100%;
+            position: absolute;
+            top: 2.5px;
+            left: 2.5px;
+        }
+            .book{                  /* Обложка книги */
+                background-color: lightgrey;
+                width: 56px;
+                height: 48px;
+                position: absolute;
+                top: 19.5px;
+                left: 14.5px;
+            }
+                .bot_s{             /* Тень под страницами */
+                    background-color: darkgray;
+                    width: 52px;
+                    height: 1px;
+                    position: absolute;
+                    bottom: 1px;
+                    left: 2px;
+                }
+                .bot_s1{             /* Тень под страницами */
+                    background-color: darkgray;
+                    width: 50px;
+                    height: 0.5px;
+                    position: absolute;
+                    bottom: 0.5px;
+                    left: 2.7px;
+                }
+                .bot_s2{             /* Тень под страницами */
+                    background-color: darkgray;
+                }
+                .bot_s3{             /* Тень под страницами */
+                    background-color: darkgray;
+                }
+                .bot_s4{             /* Тень под страницами */
+                    background-color: darkgray;
+                }
+                .page{              /* Страница */
+                    background-color: PapayaWhip;
+                    width: 52px;
+                    height: 46px;
+                    position: absolute;
+                    bottom: 2px;
+                    left: 2px;
+                }
+                    .page_sl{
+                        background-color: BurlyWood;
+                        width: 25.5px;
+                        height: 1px;
+                        position: absolute;
+                        bottom: 0px;
+                    }
+                    .page_sr{
+                        background-color: BurlyWood;
+                        width: 25.5px;
+                        height: 1px;
+                        position: absolute;
+                        bottom: 0px;
+                        right: 0px;
+                    }
+                    .page_sl1{
+                        background-color: BurlyWood;
+                        width: 24.5px;
+                        height: 0.5px;
+                        position: absolute;
+                        bottom: 1px;
+                        left: 0.7px;
+                    }
+                    .page_sr1{
+                        background-color: BurlyWood;
+                        width: 24.5px;
+                        height: 0.5px;
+                        position: absolute;
+                        bottom: 1px;
+                        right: 0.7px;
+                    }
+                    .page_sl2{
+                        background-color: BurlyWood;
+                        width: 23px;
+                        height: 0.5px;
+                        position: absolute;
+                        bottom: 1.5px;
+                        left: 1.7px;
+                    }
+                    .page_sr2{
+                        background-color: BurlyWood;
+                        width: 23px;
+                        height: 0.5px;
+                        position: absolute;
+                        bottom: 1.5px;
+                        right: 1.7px;
+                    }
+                    .page_sl3{
+                        background-color: BurlyWood;
+                        width: 22px;
+                        height: 0.2px;
+                        position: absolute;
+                        bottom: 2px;
+                        left: 2.5px;
+                    }
+                    .page_sr3{
+                        background-color: BurlyWood;
+                        width: 22px;
+                        height: 0.2px;
+                        position: absolute;
+                        bottom: 2px;
+                        right: 2.5px;
+                    }
+                    .line{
+                        background-color: darkgray;
+                        width: 1px;
+                        height: 46px;
+                        position: absolute;
+                        bottom: 2px;
+                        left: 27.5px;
+                    }

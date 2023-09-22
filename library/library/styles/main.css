@@ -1,0 +1,45 @@
+            a{
+                color: darkslategrey;
+                text-decoration: none;
+            }
+        /* Блок со списком авторов */
+        /* .author_list{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            margin-right: 10px;
+            border: ridge 3px;
+            border-color: whitesmoke;
+            background-color: rgba(255, 248, 220, 0.50);
+            color: darkslategray;
+        } */
+            .authors{
+                text-align: center;
+                text-decoration: none;
+                color: darkslategray;
+                margin-top: 0px;
+                    margin-bottom: 0px;
+            }
+                h2{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                .author_name{
+                    text-align: left;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
+                    .name{
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        color:  dimgray;
+                    }
+                    .name:hover{
+                        color: whitesmoke;
+                        background-color: dimgray;
+                    }
