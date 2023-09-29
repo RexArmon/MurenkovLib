@@ -7,16 +7,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     </head>
     <body>
-        <div class="circle">
+        <div class="foundation">
             <div class="cirIncir">
                 <div class="book"> <!-- Обложка книги -->
                     <div class="bot_s"> <!-- Тень под страницами -->
                         <div class="bot_s1"></div>
                         <div class="bot_s2"></div>
                     </div>
-                    
-                    
                     <div class="page"> <!-- Страницы -->
+                        <div class="pages"></div>
                         <div class="page_sl"></div>
                         <div class="page_sr"></div>
                         <div class="page_sl1"></div>
@@ -27,6 +26,12 @@
                         <div class="page_sr3"></div>
                     </div>
                     <div class="line"></div>
+                </div>
+            </div>
+            <div class="list">
+                <div>
+                    <p class="site-name">Библиотека</p>
+                    <p class="site-name">Муренкова</p>
                 </div>
             </div>
         </div>
