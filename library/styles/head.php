@@ -8,6 +8,11 @@
     </head>
     <body>
         <div class="foundation">
+            <!-- <div class="fcir"></div> -->
+            <div class="list">
+                <p class="site-name1">Интеренет-библиотека</p>
+                <p class="site-name2">Владислава Муренкова</p>
+            </div>
             <div class="cirIncir">
                 <div class="book"> <!-- Обложка книги -->
                     <div class="bot_s"> <!-- Тень под страницами -->
@@ -26,12 +31,6 @@
                         <div class="page_sr3"></div>
                     </div>
                     <div class="line"></div>
-                </div>
-            </div>
-            <div class="list">
-                <div>
-                    <p class="site-name">Библиотека</p>
-                    <p class="site-name">Муренкова</p>
                 </div>
             </div>
         </div>
