@@ -1,5 +1,5 @@
 <?php 
-    require_once('data/connect.php');
+    require_once('connect.php');
     
     $id = htmlspecialchars($_GET['id']);
     

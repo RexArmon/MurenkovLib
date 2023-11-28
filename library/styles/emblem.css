@@ -1,0 +1,116 @@
+.cirIncirE{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    background-color: darkslategray;
+    border: solid 1px;
+    border-color: whitesmoke;
+    margin: 15px 15px 0px 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    margin: 1px;
+}
+    .bookE{                  /* Обложка книги */
+        background-color: lightgrey;
+        width: 36px;
+        height: 28px;
+        position: absolute;
+        left: 8px;
+        top: 12px;
+    }
+        .bot_s1E{             /* Тень под страницами */
+            background-color: darkgray;
+            width: 32px;
+            height: 1px;
+            position: absolute;
+            bottom: 1px;
+            left: 2px;
+        }
+        .bot_s2E{             /* Тень под страницами */
+            background-color: darkgray;
+            position: absolute;
+            bottom: 0px;
+            left: 3.5px;
+            width: 28.6px;
+            height: 1px;
+        }
+            .pageE{              /* Страница */
+                background-color: PapayaWhip;
+                width: 32px;
+                height: 26px;
+                position: absolute;
+                bottom: 2px;
+                left: 2px;
+            }
+                .page_slE{   /* Тень под страницами лево */
+                    background-color: BurlyWood;
+                    width: 15.5px;
+                    height: 1px;
+                    position: absolute;
+                    bottom: 0px;
+                }
+                .page_srE{   /* Тень под страницами право */
+                    background-color: BurlyWood;
+                    width: 15.5px;
+                    height: 1px;
+                    position: absolute;
+                    bottom: 0px;
+                    right: 0px;
+                }
+                .page_sl1E{  /* Тень под страницами лево ур 1*/
+                    background-color: BurlyWood;
+                    width: 14px;
+                    height: 1px;
+                    position: absolute;
+                    bottom: 1px;
+                    left: 1px;
+                }
+                .page_sr1E{
+                    background-color: BurlyWood;
+                    width: 14px;
+                    height: 1px;
+                    position: absolute;
+                    bottom: 1px;
+                    right: 1px;
+                }
+                .page_sl2E{  /* Тень под страницами лево ур 2*/
+                    background-color: papayawhip;
+                    width: 14px;
+                    height: 1px;
+                    position: absolute;
+                    top: -2px;
+                    left: 1px;
+                }
+                .page_sr2E{
+                    background-color: papayawhip;
+                    width: 14px;
+                    height: 1px;
+                    position: absolute;
+                    top: -2px;
+                    right: 1px;
+                }
+                .page_sl3E{  /* Тень под страницами лево ур 3*/
+                    background-color: papayawhip;
+                    width: 15.5px;
+                    height: 1px;
+                    position: absolute;
+                    top: -1px;
+                    left: 0px;
+                }
+                .page_sr3E{
+                    background-color: papayawhip;
+                    width: 15.5px;
+                    height: 1px;
+                    position: absolute;
+                    top: -1px;
+                    right: 0px;
+                }
+                .lineE{  /* Внутренняя тень */
+                    background-color: darkgray;
+                    width: 1px;
+                    height: 26px;
+                    position: absolute;
+                    bottom: 2px;
+                    left: 17.5px;
+                }

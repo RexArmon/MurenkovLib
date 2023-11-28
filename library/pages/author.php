@@ -16,7 +16,7 @@
         <div class="container">
             <!-- Шапка  -->
             <div class="head">
-                <a href="../index.php"><h1 class="head_h1">Интернет-библиотека Владислава Муренкова</h1></a>
+                <h1 class="head_h1"><a href="../index.php"><?php require '../styles/head.php'?></a></h1>
             </div>
             <!-- Блок навигации -->
             <div class="nav">

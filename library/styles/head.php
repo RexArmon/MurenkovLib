@@ -8,6 +8,8 @@
     </head>
     <body>
         <div class="foundation">
+            <div class="found-square"></div>
+            <div class="back-square"></div>
             <div class="back-list"></div>
             <div class="list-square"></div>
             <div class="list">

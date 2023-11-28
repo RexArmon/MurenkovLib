@@ -1,6 +1,3 @@
-<?php
-    
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,19 +5,20 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/x-icon" href="styles/images/pin.ico">
-		<link rel="stylesheet" type="text/css" href="styles/base.css">
-		<link rel="stylesheet" type="text/css" href="styles/work.css">
+		<link rel="stylesheet" type="text/css" href="../styles/base.css">
+		<link rel="stylesheet" type="text/css" href="../styles/work.css">
+		<link rel="stylesheet" type="text/css" href="../styles/emblem.css">
 		<title>Интернет-библиотека Владислава Муренкова:</title>
     </head>
     <body>
         <div class="container">
             <!-- Шапка  -->
             <div class="head">
-                <a href="../index.php"><h1 class="head_h1">Интернет-библиотека Владислава Муренкова</h1></a>
+                <a href="../index.php"><h1 class="head_h1"><?php require_once('../styles/head.php')?></h1></a>
             </div>
             <!-- Блок навигации -->
             <div class="nav">
-                
+                <?php require_once('../styles/images/emblem.html')?>
             </div>
             <!-- Блок с текстом -->
             <div class="text">

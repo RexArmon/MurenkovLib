@@ -175,11 +175,20 @@ a{
 /* Эмблема */
 .foundation{
     background-color: darkslategrey;
-    width: 500px;
+    width: 250px;
     height: 56px;
-    border-right: 1px solid whitesmoke;
     display: grid;
     margin: 0;
+    padding-bottom: 0px;
+}
+.found-square{
+    background-color: darkslategrey;
+    width: 56px;
+    height: 56px;
+    display: grid;
+    margin-left: 240px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
     padding-bottom: 0px;
 }
     .fcir{
@@ -306,17 +315,48 @@ a{
                             bottom: 2px;
                             left: 17.5px;
                         }
+    .back-square{
+        position: absolute;
+        border: solid 1px;
+        border-color: whitesmoke;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        background-color: lightgrey;
+        margin: 7px 0px 7px 244px;
+        height: 40px;
+        width: 40px;
+    }
     .back-list{ /* Задний фон */
         position: absolute;
-        background-color: whitesmoke;
-        padding: 20px;
+        background-color: lightgrey;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        border-color: whitesmoke;
+        margin: 7px 0px 7px 40px;
+        height: 40px;
+        width: 220px;
+    }
+    
+    .list-square{
+        position: absolute;
+        background-color: papayawhip;
+        left: 245px;
+        padding: 16px;
+        margin: 11px 0px 11px 0px;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border: solid 1px;
+        border-color: gray;
     }
     .list{ /* Название библиотеки */
         position: absolute;
         background-color: papayawhip;
         left: 40px;
         padding-left: 10px;
-        margin: 12px 0px 12px 0px;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        border-color: grey;
+        margin: 11px 0px 11px 0px;
     }
         .site-name1{
             margin: 0;
@@ -335,12 +375,4 @@ a{
             height: 20px;
             text-align: center;
         }
-    .list-square{
-        position: absolute;
-        background-color: papayawhip;
-        left: 240px;
-        padding: 16px;
-        margin: 12px 0px 12px 0px;
-        border-top-right-radius: 50%;
-        border-bottom-right-radius: 50%;
-    }
+    

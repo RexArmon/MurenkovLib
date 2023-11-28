@@ -1,9 +1,9 @@
 <?php
 
 
-    require_once ('data/select_work.php');
-    require_once ('data/select_text.php');
-    require_once('data/connect.php');
+    require_once ('../data/select_work.php');
+    require_once ('../data/select_text.php');
+    require_once('../data/connect.php');
 
     $work = mysqli_fetch_array($res_w);
 
@@ -28,13 +28,13 @@
             <!-- Шапка  -->
             <div class="head">
                 <div>
-                    <h1 class="head_h1"><a href="main.php">Интернет-библиотека Владислава Муренкова</a></h1>
+                    <h1 class="head_h1"><a href="../index.php"><?php require_once ('../styles/head.php') ?></a></h1>
                 </div>
             </div>
             <!-- Блок навигации -->
             <div class="nav">
                 <h2 class="name_author"><?php echo $work['name_a']?></h2>
-                <img class="image" src="<?php echo $work['image']?>">
+                <img class="image" src="../<?php echo $work['image']?>">
                 <div class="box_but">
                     <?php 
                         
@@ -52,7 +52,7 @@
                         ?>
                     "><p class="button_p">Биография</p></a>
                     <a class="button_a" href="authors.php"><p class="button_p">Авторы</p></a>
-                    <a href="main.php"><p class="button_p">Главная</p></a>
+                    <a href="../index.php"><p class="button_p">Главная</p></a>
                 </div>
             </div>
             <!-- Блок c содержанием -->
@@ -60,7 +60,7 @@
                 <h2 class="br_h2">Содержание</h2>
                 <div class="box_but">
                         <?php
-                            require_once ('data/connect.php');
+                            require_once ('../data/connect.php');
                             
                             $id = htmlspecialchars($_GET['id']);
     
